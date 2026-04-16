@@ -1,0 +1,96 @@
+{
+  "project_name": "AuraFit",
+  "theme": "dark",
+  "archetype": "5 (Jewel & Luxury)",
+  "colors": {
+    "background": "#05050A",
+    "surface": "#0F0F16",
+    "surface_glass": "rgba(255, 255, 255, 0.03)",
+    "primary": "#4F46E5",
+    "primary_hover": "#6366F1",
+    "text_main": "#F8FAFC",
+    "text_muted": "#94A3B8",
+    "border": "rgba(255, 255, 255, 0.08)"
+  },
+  "typography": {
+    "font_heading": "Playfair Display",
+    "font_body": "Outfit",
+    "h1": "text-5xl md:text-6xl tracking-tighter font-heading text-text_main",
+    "h2": "text-3xl md:text-4xl tracking-tight font-heading text-text_main",
+    "h3": "text-xl md:text-2xl tracking-tight font-heading text-text_main",
+    "body": "text-base font-body text-text_muted leading-relaxed",
+    "label": "text-xs uppercase tracking-[0.2em] font-body font-semibold text-text_muted"
+  },
+  "spacing_and_layout": {
+    "container_padding": "p-6 md:p-12",
+    "gap_large": "gap-12",
+    "gap_small": "gap-4",
+    "card_radius": "rounded-3xl",
+    "button_radius": "rounded-full"
+  },
+  "surfaces": {
+    "glassmorphism": "backdrop-blur-2xl bg-white/[0.03] border border-white/10 shadow-[0_8px_32px_rgba(0,0,0,0.4)]",
+    "flat_card": "bg-[#0F0F16] border border-white/5 shadow-2xl",
+    "image_overlay": "bg-gradient-to-t from-[#05050A] via-[#05050A]/40 to-transparent"
+  },
+  "components": {
+    "navigation": "Crystal glass sticky header, z-50, backdrop-blur-xl bg-[#05050A]/60 border-b border-white/5",
+    "hero_section": "Full viewport height, image background with bg-[#05050A]/60 overlay to ensure text contrast. Center aligned massive serif text. Minimalist primary CTA.",
+    "occasion_selector": "Horizontal scrollable flex row of glassmorphic pills. Active state gets primary color border (border-[#4F46E5]) and slight text glow.",
+    "outfit_card": "Portrait orientation (aspect-[3/4]). Image fills 100%. Dark gradient overlay at bottom for text readability. Reveal 'View Details' button on hover. Unconventional, bento-grid inspired placement.",
+    "controls": "Shadcn Select/Dropdown heavily customized to have dark backgrounds (#0F0F16) and thin borders (border-white/10).",
+    "detail_view": "Modal or expanded bento section with massive image focus, minimal text, showcasing styling rules."
+  },
+  "media": {
+    "hero_background": {
+      "url": "https://static.prod-images.emergentagent.com/jobs/cd80d8a0-deaa-45f2-9fcf-5661d52d51cb/images/fbe65fd2654d110653c9497da66e98ffa068328c347d9fa182ae52b52098eb15.png",
+      "description": "Abstract midnight blue silk background for the hero section."
+    },
+    "empty_state": {
+      "url": "https://static.prod-images.emergentagent.com/jobs/cd80d8a0-deaa-45f2-9fcf-5661d52d51cb/images/41cce5aed5c538dbeb49e3970bce376cb8709236e6d2cdef7f4d8e3634d615bc.png",
+      "description": "Luxurious empty wardrobe hanger for zero-results states."
+    },
+    "outfits": [
+      {
+        "category": "mens_streetwear",
+        "url": "https://images.unsplash.com/photo-1586897414933-79708324005e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDN8MHwxfHNlYXJjaHwxfHxtZW5zJTIwc3RyZWV0d2VhciUyMG91dGZpdCUyMGZhc2hpb258ZW58MHx8fHwxNzc2MzQ2NjkwfDA&ixlib=rb-4.1.0&q=85"
+      },
+      {
+        "category": "mens_streetwear_2",
+        "url": "https://images.unsplash.com/photo-1711614426430-f6f90af58dc5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDN8MHwxfHNlYXJjaHw0fHxtZW5zJTIwc3RyZWV0d2VhciUyMG91dGZpdCUyMGZhc2hpb258ZW58MHx8fHwxNzc2MzQ2NjkwfDA&ixlib=rb-4.1.0&q=85"
+      },
+      {
+        "category": "womens_elegant_date",
+        "url": "https://images.unsplash.com/photo-1596662678434-186ae19d2879?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODd8MHwxfHNlYXJjaHwxfHx3b21lbnMlMjBlbGVnYW50JTIwZGF0ZSUyMG91dGZpdHxlbnwwfHx8fDE3NzYzNDY2OTB8MA&ixlib=rb-4.1.0&q=85"
+      },
+      {
+        "category": "womens_elegant_date_2",
+        "url": "https://images.unsplash.com/photo-1618333453067-769b06a8a9a9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODd8MHwxfHNlYXJjaHwyfHx3b21lbnMlMjBlbGVnYW50JTIwZGF0ZSUyMG91dGZpdHxlbnwwfHx8fDE3NzYzNDY2OTB8MA&ixlib=rb-4.1.0&q=85"
+      },
+      {
+        "category": "womens_elegant_date_3",
+        "url": "https://images.unsplash.com/photo-1673182122218-c63ff9007fc8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODd8MHwxfHNlYXJjaHwzfHx3b21lbnMlMjBlbGVnYW50JTIwZGF0ZSUyMG91dGZpdHxlbnwwfHx8fDE3NzYzNDY2OTB8MA&ixlib=rb-4.1.0&q=85"
+      },
+      {
+        "category": "casual_college",
+        "url": "https://images.unsplash.com/photo-1770739886778-ab36c4b55dbd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2OTV8MHwxfHNlYXJjaHwxfHxjYXN1YWwlMjBjb2xsZWdlJTIwc3R1ZGVudCUyMG91dGZpdHxlbnwwfHx8fDE3NzYzNDY2OTB8MA&ixlib=rb-4.1.0&q=85"
+      },
+      {
+        "category": "casual_college_2",
+        "url": "https://images.unsplash.com/photo-1682527894541-45dc10e7cc66?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2OTV8MHwxfHNlYXJjaHwzfHxjYXN1YWwlMjBjb2xsZWdlJTIwc3R1ZGVudCUyMG91dGZpdHxlbnwwfHx8fDE3NzYzNDY2OTB8MA&ixlib=rb-4.1.0&q=85"
+      }
+    ]
+  },
+  "instructions_to_main_agent": [
+    "Strictly apply Archetype 5 (Jewel & Luxury) using the defined color palette in Tailwind config. Do NOT use default Tailwind colors, use the provided hex codes.",
+    "Use 'Playfair Display' for Headings and 'Outfit' for Body text. Install them via Google Fonts or next/font.",
+    "Install and use @phosphor-icons/react with 'duotone' weight to give a high-end tech-fashion feel.",
+    "Add 'data-testid' to EVERY interactive element (buttons, toggles, outfit cards) using kebab-case role-based names (e.g., data-testid='occasion-selector-date').",
+    "The Hero Section must use the 'hero_background' media URL with a bg-[#05050A]/60 overlay to ensure the massive Playfair Display text is perfectly legible.",
+    "Outfit Cards must be implemented as pure HTML/Tailwind divs (not generic Shadcn Cards) to allow for edge-to-edge imagery with an aspect-[3/4] ratio.",
+    "Use raw HTML/Tailwind for structural bento layouts. Use Shadcn ONLY for complex interactives (like Select dropdowns for Gender/Season) and strip their default styles to match the dark glassmorphic theme.",
+    "Seed the frontend logic with the provided outfit images, mapping them to rule-based combinations (e.g., Occasion: College -> casual_college images).",
+    "Ensure the 'Occasion Selector' uses horizontal flex pills with 'Crystal Glass' effect (backdrop-blur-2xl, bg-white/[0.03]).",
+    "Keep text minimal. The images are the hero. Never center text arbitrarily unless it's a hero heading."
+  ]
+}
